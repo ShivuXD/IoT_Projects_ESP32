@@ -4,8 +4,6 @@ A simple embedded systems project using an ESP32, DHT11 temperature and humidity
 
 The project reads temperature and relative humidity from the DHT11 and displays the measurements in real time on a 0.96-inch OLED display. Sensor readings are also printed to the Serial Monitor for debugging and monitoring.
 
-This project was built as a beginner embedded systems exercise to understand GPIO, I2C communication, sensor interfacing, and real-time data visualization using an ESP32.
-
 ---
 
 ## Features
@@ -13,9 +11,6 @@ This project was built as a beginner embedded systems exercise to understand GPI
 - Real-time temperature measurement
 - Real-time relative humidity measurement
 - OLED-based data visualization
-- Serial Monitor output for debugging
-- DHT11 sensor error handling
-- I2C communication between ESP32 and OLED
 - Automatic periodic sensor updates
 
 ---
@@ -76,3 +71,8 @@ This project was built as a beginner embedded systems exercise to understand GPI
         │ GND   │          │ SDA     │
         └───────┘          │ SCL     │
                            └─────────┘
+```
+
+### Project Image
+<img width="1156" height="652" alt="image" src="https://github.com/user-attachments/assets/b5f7d153-f22c-431c-b9a0-9c1cdcd05beb" />
+
