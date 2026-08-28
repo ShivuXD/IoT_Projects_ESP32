@@ -26,12 +26,34 @@ The system detects nearby objects using the IR sensor and triggers an audible an
 
 ## Pin Configuration
 
-| Component | ESP32 GPIO |
-|---|---:|
-| IR Sensor OUT | GPIO 5 |
-| LED 1 | GPIO 18 |
-| LED 2 | GPIO 19 |
-| Buzzer | GPIO 21 |
+### IR Obstacle Sensor
+
+| Sensor Pin | ESP32 |
+|---|---|
+| VCC | 3.3V |
+| GND | GND |
+| OUT | GPIO 5 |
+
+### LED 1
+
+| LED Pin | ESP32 |
+|---|---|
+| Anode (+) | GPIO 18 through 220Ω/330Ω resistor |
+| Cathode (-) | GND |
+
+### LED 2
+
+| LED Pin | ESP32 |
+|---|---|
+| Anode (+) | GPIO 19 through 220Ω/330Ω resistor |
+| Cathode (-) | GND |
+
+### Passive Buzzer
+
+| Buzzer Pin | ESP32 |
+|---|---|
+| + | GPIO 21 |
+| - | GND |
 
 ## How It Works
 
