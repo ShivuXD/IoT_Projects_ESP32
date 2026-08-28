@@ -1,8 +1,8 @@
-# ESP32 DHT11 OLED Monitor
+# ESP32 DHT11 Room Temperature and, Humidity Monitoring System
 
 A simple embedded systems project using an ESP32, DHT11 temperature and humidity sensor, and SSD1306 OLED display.
 
-The project reads temperature and relative humidity from the DHT11 and displays the measurements in real time on a 0.96-inch OLED display. Sensor readings are also printed to the Serial Monitor for debugging and monitoring.
+The system reads temperature (with error of ±2°C) and relative humidity (with error of ±5% RH) from the DHT11 and displays the measurements in real time on a 0.96-inch OLED display. 
 
 ---
 
