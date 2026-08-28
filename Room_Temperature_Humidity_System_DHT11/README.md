@@ -23,7 +23,7 @@ This project was built as a beginner embedded systems exercise to understand GPI
 ## Hardware
 
 | Component | Purpose |
-|---||---|
+|---|---|
 | ESP32 DevKit | Main microcontroller |
 | DHT11 Module  | Temperature and humidity sensing |
 | SSD1306 OLED 0.96" | Displays sensor readings |
