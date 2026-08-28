@@ -22,14 +22,14 @@ This project was built as a beginner embedded systems exercise to understand GPI
 
 ## Hardware
 
-| Component | Quantity | Purpose |
-|---|---:|---|
-| ESP32 DevKit | 1 | Main microcontroller |
-| DHT11 Module | 1 | Temperature and humidity sensing |
-| SSD1306 OLED 0.96" | 1 | Displays sensor readings |
-| Jumper Wires | As required | Circuit connections |
-| Breadboard | 1 | Prototyping |
-| USB Cable | 1 | Programming and power |
+| Component | Purpose |
+|---||---|
+| ESP32 DevKit | Main microcontroller |
+| DHT11 Module  | Temperature and humidity sensing |
+| SSD1306 OLED 0.96" | Displays sensor readings |
+| Jumper Wires | Circuit connections |
+| Breadboard | Prototyping |
+| USB Cable | Programming and power |
 
 ---
 
