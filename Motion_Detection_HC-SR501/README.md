@@ -8,8 +8,7 @@ The system detects motion using the PIR sensor, activates an LED, and displays t
 - PIR-based motion detection
 - LED motion indicator
 - Real-time OLED status display
-- Automatic status updates
-- Simple hardware-based operation
+
 
 ## Hardware
 
@@ -19,9 +18,6 @@ The system detects motion using the PIR sensor, activates an LED, and displays t
 | HC-SR501 PIR Sensor | Detects human movement |
 | 0.96" SSD1306 OLED | Displays motion status |
 | LED | Visual motion indicator |
-| 220Ω/330Ω Resistor | LED current limiting |
-| Breadboard | Prototyping |
-| Jumper Wires | Connections |
 
 ## Pin Configuration
 
