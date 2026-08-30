@@ -1,4 +1,4 @@
-HC SR501 PIR Motion Sensing System
+# HC SR501 PIR Motion Sensing System
 
 A simple ESP32-based motion detection project using an HC-SR501 PIR sensor, an LED, and a 0.96-inch SSD1306 OLED display.
 The system detects motion using the PIR sensor, activates an LED, and displays the current motion status on the OLED.
